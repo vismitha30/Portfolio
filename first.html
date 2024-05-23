@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Welcome</title>
+    <link rel="stylesheet" href="first.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+    
+        body.starting-page {
+            background: url('C:/Users/User/Desktop/portfolio2.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+       .intro {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9); 
+            padding:2rem;
+            border-radius:8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, #ff6b6b, #f3a683); 
+
+            -webkit-text-fill-color: transparent;
+        }
+
+        p {
+            font-size: 2.7rem;
+            margin-bottom: 1.5rem;
+            font-family:Georgia, serif;
+            
+            
+        }
+
+        button {
+            font-size: 1.25rem;
+        }
+    </style>
+</head>
+<body class="starting-page">
+    
+    <main>
+        <div class="intro">
+            <p><b>Welcome to my portfolio website</b></p>
+            <button id="aboutMeButton">Click</button>
+        </div>
+    </main>
+    <script>
+        document.getElementById('aboutMeButton').addEventListener('click', function() {
+            window.location.href = 'about.html';
+        });
+    </script>
+</body>
+</html>
+

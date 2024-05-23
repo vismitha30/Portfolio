@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - About Me</title>
+    <link rel="stylesheet" href="about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        .portfolio{
+            color:blue;
+        }
+        p {
+            text-align: justify;
+        
+        }
+        footer p{
+            text-align: justify;
+            justify-content: space-between;
+        }
+
+        footer a{
+           text-decoration: none;
+           display:inline-block;
+           }
+
+         
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <main>
+        <div class="intro">
+            <p>Hellooo!! My name is <b> Vismitha S</b>.I am an aspiring software engineer  with solid foundation in Computer Science and proficient in
+                problem solving and analytical skills developed through academic projects and eager to contribute
+                my technical expertise in a collaborative environment.<span class="portfolio"></p>
+            <button id="detailsButton">View Details</button>
+        </div>
+    </main>
+    <footer>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:vismitha.1212@gmail.com">vismitha.1212@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/vismitha-s-9143a3246" target="_blank">https://www.linkedin.com/in/vismitha-s-9143a3246</a></p>
+            <p>GitHub: <a href="https://github.com/vismitha30" target="_blank">https://github.com/vismitha30</a></p>
+            <p>Phone: +91 9449374013</p>
+        </div>
+    </footer>
+    
+    <script>
+        document.getElementById('detailsButton').addEventListener('click', function() {
+            window.location.href = 'details.html';
+        });
+    </script>
+</body>
+</html>
